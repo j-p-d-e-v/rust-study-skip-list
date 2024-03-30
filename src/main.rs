@@ -10,14 +10,6 @@ struct Node {
     pub command: String,
 }
 
-//#[derive(Debug,Clone)]
-//struct SkipList {
-//    head: Link,
-//    tails: Vec<Link>,
-//    max_level: usize,
-//    pub length: u64,
-//}
-
 #[derive(Debug,Clone)]
 pub struct BestTransactionLog {
     head: Link,
